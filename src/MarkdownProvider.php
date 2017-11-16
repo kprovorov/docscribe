@@ -75,8 +75,8 @@ class MarkdownProvider
             $this->path = $path;
         } else {
 
-            if (isset($GLOBALS['DOCUMENTATOR_SUBFOLDER'])) {
-                $this->path = getcwd() . '/' . $GLOBALS['DOCUMENTATOR_SUBFOLDER'];
+            if (isset($GLOBALS['DOCSCRIBE_SUBFOLDER'])) {
+                $this->path = getcwd() . '/' . $GLOBALS['DOCSCRIBE_SUBFOLDER'];
             } else {
                 $this->path = getcwd() . '/' . self::SUBFOLDER_NAME;
             }
