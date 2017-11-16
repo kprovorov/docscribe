@@ -1,0 +1,17 @@
+{
+    "name": "kprovorov/docscribe",
+    "description": "Automatically creates API documentation when performing tests",
+    "authors": [
+        {
+            "name": "kprovorov",
+            "email": "fashiongraphic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    }
+}
